@@ -1,0 +1,67 @@
+html , body {
+    background-color: black;
+    box-sizing: border-box;
+    display: flex;
+    width: 960px;
+    font-family: 'Roboto', sans-serif;
+    margin:auto;
+    justify-content: center;
+   height: 100%;
+   
+}
+
+main {
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    margin:auto;
+    align-items: center;
+
+}
+
+header {
+padding: 10px;
+display: flex;
+justify-content: space-between;
+}
+
+header > div > img {
+   height: 50px;
+   width: 50px;
+}
+
+section {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cont1 , .cont2 {
+    padding-right: 5px;
+    margin-top: 0%;
+    text-align: left;
+}
+
+
+
+input {
+    font-size: 1rem;
+}
+
+
+footer {
+    height: 90px;
+justify-content: center;
+margin: 0 auto;
+text-align: center;
+
+
+}
+
+footer > button {
+    padding-top: 20px;
+    padding: 5px;
+    font-size: 1rem;
+    
+}
